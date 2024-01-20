@@ -1,0 +1,108 @@
+*{
+ box-sizing: border-box;
+ text-align: center;
+ margin: 0;
+}
+
+.main-container{
+  width: 650px;
+  height: 750px;
+  background-color: rgb(55, 148, 224);
+  color: white;
+  margin: 0 auto;
+  letter-spacing: 1.5px;
+  display: flex;
+  flex-direction: column;
+}
+.header{
+  margin-top: 20px;
+}
+
+.input-container{
+  margin-top: -20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: flex-end;
+  gap: 20px 20px;
+}
+
+.input-container-left{
+  display: flex;
+  flex-direction: column;
+  
+}
+.input-container-right{
+  display: flex;
+  flex-direction: column;
+
+}
+.input{
+  width: 260px;
+  height: 25px;
+  margin-top: 45px;
+   border-radius: 20px;
+}
+#first{
+  width: 250px;
+  height: 45px;
+}
+#display{
+  
+  width: 250px;
+  height: 45px;
+}
+#password{
+  
+  width: 250px;
+  height: 45px;
+}
+#last{
+  
+  width: 250px;
+  height: 45px;
+}
+#email{
+  
+  width: 250px;
+  height: 45px;
+}
+.radio-container{
+  height: 80px;
+  display: flex;
+  flex-direction:;
+  justify-content: center;
+  margin-top: 60px;
+  border: 2px solid white;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+#choice-buyer[type="radio"]{
+
+
+  
+}
+#choice-seller[type="radio"]{
+
+}
+.chekbox-container{
+  padding: 10px;
+  margin-top: 30px;
+  margin-left: 40px;
+  margin-right: 60px;
+}
+.button-container{
+  margin-top: 20px;
+  
+ 
+}
+#btn{
+  width: 530px;
+  height: 60px;
+  background-color: rgb(37, 214, 176);
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+}
